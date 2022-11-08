@@ -2,10 +2,10 @@ let squares = document.querySelectorAll(".square")
 
 squares.forEach(element => {
     element.onmouseover = function() {
-    element.style.background = "red"
+    element.style.backgroundColor = "red"
     element.style.backgroundImage = "url('smile.png')"
     element.style.backgroundSize = "50px 50px"
-    //element.setAttribute("style", "background: red; background-image: url('smile.png'); background-size: 50px 50px;")
+    //element.setAttribute("style", "background-color: red; background-image: url('smile.png'); background-size: 50px 50px;")
     }
 });
 
