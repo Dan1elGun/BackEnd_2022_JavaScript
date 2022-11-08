@@ -1,6 +1,5 @@
 .block {
     display: flex;
-    margin: 0 -5;
 }
 .square {
     width: 50px;
